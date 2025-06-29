@@ -1,0 +1,50 @@
+.transactionHistory {
+  width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.headerCell {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.row {
+  transition: background-color 0.2s ease;
+}
+
+.row:hover {
+  background-color: #f8f9fa;
+}
+
+.even {
+  background-color: #f8f9fa;
+}
+
+.odd {
+  background-color: white;
+}
+
+.cell {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+  text-transform: capitalize;
+  color: #495057;
+}
+
+.row:last-child .cell {
+  border-bottom: none;
+}
